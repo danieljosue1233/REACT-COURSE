@@ -5,6 +5,8 @@ import './Style.css'
 
 const ProductDetail = () => {
   const context = useContext(ShoppingCartContext)
+
+  console.log(context)
   
   return context.productToShow && (
     <aside
